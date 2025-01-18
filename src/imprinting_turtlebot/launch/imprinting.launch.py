@@ -25,7 +25,7 @@ def generate_launch_description():
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
 
     world = os.path.join(
-        imprinting_dir, 'turtlebot3_world.world'
+        imprinting_dir, 'empty_world.world'
     )
     gzserver_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -62,7 +62,7 @@ def generate_launch_description():
             '-entity', 'tb1',
             '-file', robot_sdf1,
             '-robot_namespace', '/robot1',
-            '-x', '-0.5', '-y', '-0.5', '-z', '0.01',
+            '-x', '0.0', '-y', '-0.5', '-z', '0.01',
             '-R', '0.00', '-P', '0.00', '-Y', '0.00'],
         respawn=True)
     
@@ -85,7 +85,7 @@ def generate_launch_description():
             '-entity', 'tb2',
             '-file', robot_sdf2,
             '-robot_namespace', '/robot2',
-            '-x', '-1.0', '-y', '-0.5', '-z', '0.01',
+            '-x', '-1.5', '-y', '-0.5', '-z', '0.01',
             '-R', '0.00', '-P', '0.00', '-Y', '0.00'],
         respawn=True)
     
@@ -108,7 +108,7 @@ def generate_launch_description():
             '-entity', 'tb3',
             '-file', robot_sdf3,
             '-robot_namespace', '/robot3',
-            '-x', '-1.5', '-y', '-0.5', '-z', '0.01',
+            '-x', '-3.5', '-y', '-0.5', '-z', '0.01',
             '-R', '0.00', '-P', '0.00', '-Y', '0.00'],
         respawn=True)
 

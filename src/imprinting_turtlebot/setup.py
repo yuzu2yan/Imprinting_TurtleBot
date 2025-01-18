@@ -12,7 +12,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name, ['launch/imprinting.launch.py']),
         ('share/' + package_name, ['urdf/turtlebot3_waffle.urdf']),
-        ('share/' + package_name, ['world/turtlebot3_world.world']),
+        ('share/' + package_name, ['world/empty_world.world']),
         ('share/' + package_name, ['model/model1.sdf']),
         ('share/' + package_name, ['model/model2.sdf']),
         ('share/' + package_name, ['model/model3.sdf']),
