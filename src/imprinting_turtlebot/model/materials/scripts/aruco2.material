@@ -1,0 +1,15 @@
+material aruco2/material
+{
+  receive_shadows on
+
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture 2.png
+      }
+    }
+  }
+}
