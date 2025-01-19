@@ -19,7 +19,7 @@ OS       : Ubuntu 22.04
 ROS      : ROS2 Humble   
 OpenCV   : Ver.4.10.0   
 
-<img alt="config" width="600px" src="https://github.com/user-attachments/assets/165d8f81-49ef-400f-90c5-d3b1f87c4f5c">
+<img alt="config" width="600px" src="https://github.com/user-attachments/assets/2d19ac8a-a349-4205-b7fa-cea6fccfe1d3">
 
 ## Requirements
 - Have installed the ROS2 Humble, TurtleBot3, Gazebo, and Nav2 suite of packages.
