@@ -31,7 +31,7 @@ OpenCV   : Ver.4.10.0
 ```
 ros2 launch imprinting_turtlebot setup.launch.py
 ```
-3. Recognize arUco markers
+3. Recognize ArUco markers
 ```
 ros2 run opencv_ros2 aruco_node_tf --ros-args -p camera_info_topic:=/robot2/camera/camera_info -p image_topic:=/robot2/camera/image_raw
 
