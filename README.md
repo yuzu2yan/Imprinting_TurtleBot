@@ -22,7 +22,7 @@ OpenCV   : Ver.4.10.0
 <img alt="config" width="600px" src="https://github.com/user-attachments/assets/165d8f81-49ef-400f-90c5-d3b1f87c4f5c">
 
 ## Requirements
-- Have installed the ROS2 Humble, TurtleBot3, and Nav2 suite of packages.
+- Have installed the ROS2 Humble, TurtleBot3, Gazebo, and Nav2 suite of packages.
 - Version of `opencv-contrib-python` is `4.5.5.64`
 
 ## Quick Start
