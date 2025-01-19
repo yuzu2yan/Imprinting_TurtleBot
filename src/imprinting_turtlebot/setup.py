@@ -10,7 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name, ['launch/imprinting.launch.py']),
+        ('share/' + package_name, ['launch/setup.launch.py']),
         ('share/' + package_name, ['urdf/turtlebot3_waffle.urdf']),
         ('share/' + package_name, ['world/empty_world.world']),
         ('share/' + package_name, ['model/model1.sdf']),

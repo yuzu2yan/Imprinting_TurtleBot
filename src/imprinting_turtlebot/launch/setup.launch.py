@@ -85,7 +85,7 @@ def generate_launch_description():
             '-entity', 'tb2',
             '-file', robot_sdf2,
             '-robot_namespace', '/robot2',
-            '-x', '-1.5', '-y', '-0.5', '-z', '0.01',
+            '-x', '-1.3', '-y', '-0.5', '-z', '0.01',
             '-R', '0.00', '-P', '0.00', '-Y', '0.00'],
         respawn=True)
     
@@ -108,7 +108,7 @@ def generate_launch_description():
             '-entity', 'tb3',
             '-file', robot_sdf3,
             '-robot_namespace', '/robot3',
-            '-x', '-3.5', '-y', '-0.5', '-z', '0.01',
+            '-x', '-2.6', '-y', '-0.5', '-z', '0.01',
             '-R', '0.00', '-P', '0.00', '-Y', '0.00'],
         respawn=True)
 
